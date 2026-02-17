@@ -1,0 +1,9 @@
+file is creating using fsThis line add using appendFileSync
+This line add using
+ appendFileSync
+This line add using
+ appendFileSync
+This line add using
+ appendFileSync
+This line add using
+ appendFileSync
