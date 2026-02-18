@@ -1,4 +1,5 @@
 const express = require("express");
+// import data.json file
 const data = require("./data.json");
 const app = express();
 app.get("", (req, res) => {

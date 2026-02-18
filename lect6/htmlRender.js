@@ -1,7 +1,8 @@
 const express = require("express");
 const app = express();
 app.get("", (req, res) => {
-  res.send("<h1>Welcome, this is home page </h1>");
+  res.send(`<h1>Welcome, this is home page </h1>
+  <a href="/about"><button>CLick to open about page</button></a>`);
 });
 app.get("/about", (req, res) => {
   res.send("Welcome to about page.");
