@@ -1,0 +1,20 @@
+{
+  "name": "lect13-header-project",
+  "version": "1.0.0",
+  "description": "Header file with EJS template",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
